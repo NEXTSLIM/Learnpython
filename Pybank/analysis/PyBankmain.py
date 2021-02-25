@@ -48,7 +48,7 @@ print(f"Greatest Increase in Profits: {months[max_increase_month]} (${(str(max_i
 print(f"Greatest Decrease in Profits: {months[max_decrease_month]} (${(str(max_decrease_value))})")
 
 #output file
-output_file = os.path.join("..","resources","Financial Summary.txt" )
+output_file = os.path.join("..","Analysis","Financial Summary.txt" )
 
 with open(output_file,"w") as txtfile:
 
